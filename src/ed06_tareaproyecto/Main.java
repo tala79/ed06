@@ -16,9 +16,12 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Empleado empleado1 = new Empleado("1245678M","Perico de los Palotes");
         
+        Empleado empleado1 = new Empleado("1245678M","Perico de los Palotes");
+        empleado1.imprimir_emp();
+        System.out.println("El salario del empleado es "+empleado1.calcula_sueldo(1200));
         /*
+        
         empleado1.direccion="C/del Pez,6";
         empleado1.numHijos=3;
         System.out.println("DNI: "+empleado1.dni);
@@ -27,6 +30,7 @@ public class Main {
         System.out.println("Número de hijos: "+empleado1.numHijos);
         System.out.println("Sueldo: "+empleado1.calcula_sueldo(1200));
 */
+        
     }
     
 }

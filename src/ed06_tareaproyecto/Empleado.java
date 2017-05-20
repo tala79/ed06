@@ -99,4 +99,14 @@ public class Empleado {
         System.out.println("Sueldo: "+this.calcula_sueldo(1200));
         
     }
+    // Sobrecarga del metodo imprimir_emp para comprobar la actualización en GitHub
+    public void imprimir_emp(){
+        
+        System.out.println("DNI: "+this.dni);
+        System.out.println("Nombre: "+this.nombre);
+        System.out.println("Cargo: "+this.cargo);
+        System.out.println("Número de hijos: "+this.numHijos);
+        System.out.println("Sueldo: "+this.calcula_sueldo(1200));
+        
+    }
 }
